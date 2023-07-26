@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+body{
+    padding: 2em;
+    font-family: Raleway;
+    position: relative;
+}
+
+
+
+
+main{
+    margin-top: 2em;
+}
+
+
+.embolden {
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    body{
+        padding: 0;
+    }
+
+    main{
+        padding: 0 1em;
+    }
+
+
+
+
+
+
+}

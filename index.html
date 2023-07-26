@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booki Webpage</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/search.css" />
+    <link rel="stylesheet" href="css/places.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="/assets/logo/Booki.png"
+        alt="Booki Logo"
+        title="A logo"
+      />
+
+      <nav class="header-nav">
+        <a href="#">Accomodations</a>
+        <a href="#">Activities</a>
+      </nav>
+    </header>
+    <main>
+      <div class="search">
+        <h3>Find a place for your dream vacation</h3>
+        <span> Downtown or in nature </span>
+        <form class="search-form">
+          <div class="search-container">
+            <i class="fa-solid fa-location-dot" id="location-dot"></i>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search places..."
+            />
+            <button type="submit">Search</button>
+            <i class="fa-solid fa-magnifying-glass" id="magnifying-icon"></i>
+          </div>
+
+            <div class="search-filters">
+               <h4>Filters</h4>
+
+            <div class="filter-container">
+              <div class="filter">
+                <i class="fa-solid fa-money-bill-wave"></i>
+                <h5 id="search-filter-label">Low cost</h5>
+              </div>
+              <div class="filter">
+                <i class="fa-solid fa-child-reaching"></i>
+                <h5 id="search-filter-label">Family-friendly</h5>
+              </div>
+              <div class="filter">
+                <i class="fa-solid fa-heart"></i>
+                <h5 id="search-filter-label">Romantic</h5>
+              </div>
+              <div class="filter">
+                <i class="fa-solid fa-dog"></i>
+                <h5 id="search-filter-label">Pets allowed</h5>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="search-info">
+           <div class="icon-container">
+              <i class="fa-solid fa-info"></i>
+           </div>
+           <label id="search-info-label">More than 500 accomodations are available in this city.</label>
+        </div>
+      </div>
+
+      <div class="places">
+        <div class="accomodations">
+          <h3>Accomodations in Marseille</h3>
+          <div class="accomodations-container">
+            <div class="accomodation-card">
+              <img 
+              src="./assets/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+              alt="Auberge la Cannebiere"
+              />
+              <div class="accomodation-card-details">
+                <h5>Auberge la Cannebiere</h5>
+                <label id="accomodation-label">Night starting at <b>25€</b> </label>
+                <div>
+                 <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-no-rating"></i>
+                </div> 
+              </div>
+            </div>
+            <div class="accomodation-card"> 
+              <img
+              src="./assets/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+              alt="Hotel du port"
+              />
+              <div class="accomodation-card-details">
+                <h5>Hôtel du port</h5>
+                <label id="accomodation-label">Night starting at <b>52€</b></label>
+                <div>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                   <i class="fa-solid fa-star" id="star-rating"></i>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="popular-places">
+          <div class="popular-places-title">
+          <h3>Most popular</h3>
+          <i class="fa-solid fa-star" id="popular-star"></i>
+          </div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,214 @@
+
+
+.search-form{
+    padding-top: 1em;
+}
+
+#location-dot{
+    background-color:#F2F2F2;
+    
+}
+
+.fa-location-dot {
+    font-size: 15px;
+    padding: 11px 15px; 
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+#search-input {
+  
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    /* transition: border-color 0.3s ease;  */
+    margin: 0; 
+
+}
+
+#search-input::placeholder{
+    font-weight: normal;
+}
+
+
+button {
+    background-color: #0065FC; /* Customize the button background color */
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+}
+
+
+#magnifying-icon {
+    display: none; 
+}
+
+
+.search-filters{
+    margin-top: 1em;
+    display: flex;
+      flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.filter-container{
+    display: flex; 
+    flex-direction: row;
+}
+
+.filter{
+ display: flex;
+ align-items: center;
+ margin: 1em 1em;
+ height: 20px;
+ padding: 5px;
+ padding-left: 0;
+ border: 2px solid gainsboro;
+ border-radius: 999px;
+ position: relative;
+
+}
+
+.filter:hover{
+    cursor: pointer;
+}
+
+.filter i{
+    position: absolute; 
+    left: -2px;
+}
+
+
+
+
+.fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog{
+    padding: 11px;
+    border-radius: 9999px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    font-size: 14px;
+
+}
+
+.fa-child-reaching{
+    width: 13px;
+    
+}
+
+#search-filter-label{
+    padding: 10px;
+    margin-left:35px;
+}
+
+
+.fa-info{
+    font-size: 12px;
+    color: #0065FC;
+    margin-left: 8px;
+    font-weight: bolder;
+} 
+
+.icon-container{
+    border: 2px solid gainsboro;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+
+.search-info{
+    display: inline-flex;
+    margin-top: 2em;
+}
+
+#search-info-label{
+    margin-left: 20px;
+    width: 30vw;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .fa-location-dot{
+        padding: 15px;
+    }
+  button{
+    display: none; 
+  }
+
+
+  #search-input{
+    width:55vw;
+    margin-top: 1.5em;
+    padding:13px;
+    font-size: 18px;
+  }
+
+
+
+  #magnifying-icon{
+    display: inline;
+    color: white; 
+    background-color:#007bff ;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .fa-magnifying-glass{
+    font-size: 12px;
+  }
+
+
+  .search-filters{
+    margin-top: 2em;
+  }
+
+  .filter-container{
+    display: flex;
+    flex-wrap: inherit;
+  }
+  
+
+  .filter{
+    font-size: 20px;
+    padding: 12px;
+    padding-left: 0;
+    width:min-content;
+    margin: 10px 10px;
+  }
+
+  
+
+#filter-title{
+    margin: 30p;
+}
+  .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog{
+    padding: 16px;
+    font-size: 18px;
+    left:2px;
+  }
+
+
+  .fa-child-reaching{
+    width: 16px;
+  }
+
+
+#search-filter-label{
+    margin-left:50px;
+}
+
+#search-info-label{
+    width: 80vw;
+}
+
+}
