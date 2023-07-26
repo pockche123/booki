@@ -4,39 +4,47 @@
 .places{
     display: flex; 
     margin-top: 2em;
+
 }
 
 
 .accomodations{
-    flex: 1; 
     background-color: #F2F2F2;;
     padding: 3%; 
+    padding-top: 2%;
+    padding-bottom: 2%;
     border-radius: 10px;
-    
-}
+    width: 75%;
 
-.accomodations-container{
-    display: flex;
-    justify-content: space-between;
 
 }
 
-.accomodation-card{
-    width: 250px;
-    height: 200px;
+
+.accomodations_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+
+}  
+
+.accomodation_card{
+   width: calc(33.33% - 10px);
+    /* width: 200px; */
+    height: 180px;
     background-color: white;
     border-radius: 15px;
    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
    transition: 0.3s;
+   margin-bottom: 3%;
 }
 
-.accomodation-card:hover{
+.accomodation_card:hover{
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
       cursor: pointer;
       background-color:cornflowerblue;
 }
 
-.accomodation-card img{
+.accomodation_card img{
     object-fit:cover;
     height: 60%; 
     width: 96%;
@@ -51,33 +59,17 @@ h5 {
     margin: 0; 
  
 }
-.accomodation-card-details{
+.accomodation_card_details{
     
     padding: 5%;
     padding-top: 0%;
 }
 
-#accomodation-label{
+#accomodation_label{
     font-size: 13px;
     margin:0;
 }
 
-.popular-places{
-    width: 25%;
-    background-color: #F2F2F2;
-    margin-left: 2em;
-    padding: 3%;
-    border-radius: 10px;
-}
-
-.popular-places-title{
-     display: flex; 
-  justify-content: space-between
-}
-
-#popular-star{
-    margin-top: 20px;
-}
 
 
 
@@ -89,4 +81,33 @@ h5 {
 #star-no-rating{
     color: #F2F2F2;
     font-size: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .places{
+     flex-direction: column;
+      margin: 0; 
+     
+    }
+
+    .accomodations{
+        width: 100%;
+        order:2;
+        margin: 0;
+        background-color: white;
+        
+    }
+
+    .accomodations_title{
+        font-size: larger;
+        margin-left: 5%;
+    }
+
+    .accomodation_card{
+        width: 95%;
+    }
+
+  
+
 }
