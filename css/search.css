@@ -141,6 +141,10 @@ button {
     margin: 0 1em;
   }
 
+  .search-title{
+    font-size: larger;
+  }
+
     .fa-location-dot{
         padding: 15px;
     }
