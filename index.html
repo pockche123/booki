@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/search.css" />
-    <link rel="stylesheet" href="css/places.css"/>
+    <link rel="stylesheet" href="css/accomodation.css" />
+    <link rel="stylesheet" href="css/popular-places.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -46,8 +47,8 @@
             <i class="fa-solid fa-magnifying-glass" id="magnifying-icon"></i>
           </div>
 
-            <div class="search-filters">
-               <h4>Filters</h4>
+          <div class="search-filters">
+            <h4>Filters</h4>
 
             <div class="filter-container">
               <div class="filter">
@@ -70,67 +71,153 @@
           </div>
         </form>
         <div class="search-info">
-           <div class="icon-container">
-              <i class="fa-solid fa-info"></i>
-           </div>
-           <label id="search-info-label">More than 500 accomodations are available in this city.</label>
+          <div class="icon-container">
+            <i class="fa-solid fa-info"></i>
+          </div>
+          <label id="search-info-label"
+            >More than 500 accomodations are available in this city.</label
+          >
         </div>
       </div>
 
       <div class="places">
         <div class="accomodations">
+          <div class="accomodations_title">
           <h3>Accomodations in Marseille</h3>
-          <div class="accomodations-container">
-            <div class="accomodation-card">
-              <img 
-              src="./assets/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-              alt="Auberge la Cannebiere"
+          </div>
+          <div class="accomodations_container">
+            <div class="accomodation_card">
+              <img
+                src="./assets/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                alt="Auberge la Cannebiere"
               />
-              <div class="accomodation-card-details">
+              <div class="accomodation_card_details">
                 <h5>Auberge la Cannebiere</h5>
-                <label id="accomodation-label">Night starting at <b>25€</b> </label>
+                <label id="accomodation_label"
+                  >Night starting at <b>25€</b>
+                </label>
                 <div>
-                 <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
                   <i class="fa-solid fa-star" id="star-rating"></i>
                   <i class="fa-solid fa-star" id="star-rating"></i>
                   <i class="fa-solid fa-star" id="star-rating"></i>
                   <i class="fa-solid fa-star" id="star-no-rating"></i>
-                </div> 
+                </div>
               </div>
             </div>
-            <div class="accomodation-card"> 
+
+            <div class="accomodation_card">
               <img
-              src="./assets/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-              alt="Hotel du port"
+                src="./assets/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                alt="Hotel du port"
               />
-              <div class="accomodation-card-details">
+              <div class="accomodation_card_details">
                 <h5>Hôtel du port</h5>
-                <label id="accomodation-label">Night starting at <b>52€</b></label>
+                <label id="accomodation_label"
+                  >Night starting at <b>52€</b></label
+                >
                 <div>
                   <i class="fa-solid fa-star" id="star-rating"></i>
                   <i class="fa-solid fa-star" id="star-rating"></i>
                   <i class="fa-solid fa-star" id="star-rating"></i>
                   <i class="fa-solid fa-star" id="star-rating"></i>
-                   <i class="fa-solid fa-star" id="star-rating"></i>
-
+                  <i class="fa-solid fa-star" id="star-rating"></i>
                 </div>
-
               </div>
-
             </div>
 
+            <div class="accomodation_card">
+              <img
+                src="./assets/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                alt="Les mouettes Hotel"
+              />
+              <div class="accomodation_card_details">
+                <h5>Les mouettes Hotel</h5>
+                <label id="accomodation_label"
+                  >Night starting at <b>76€</b></label
+                >
+                <div>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-no-rating"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="accomodation_card">
+              <img
+                src="./assets/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                alt="Hotel de la mar"
+              />
+              <div class="accomodation_card_details">
+                <h5>Hôtel de la mar</h5>
+                <label id="accomodation_label"
+                  >Night starting at <b>46€</b></label
+                >
+                <div>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-no-rating"></i>
+                  <i class="fa-solid fa-star" id="star-no-rating"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="accomodation_card">
+              <img
+                src="./assets/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                alt="Auberge Le Panier"
+              />
+              <div class="accomodation_card_details">
+                <h5>Auberge Le Panier</h5>
+                <label id="accomodation_label"
+                  >Night starting at <b>23€</b></label
+                >
+                <div>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-no-rating"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="accomodation_card">
+              <img
+                src="./assets/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                alt="Hôtel chez Amina"
+              />
+              <div class="accomodation_card_details">
+                <h5>Hôtel chez Amina</h5>
+                <label id="accomodation_label"
+                  >Night starting at <b>96€</b></label
+                >
+                <div>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                  <i class="fa-solid fa-star" id="star-rating"></i>
+                </div>
+              </div>
+            </div>
           </div>
 
-        </div>
-        <div class="popular-places">
-          <div class="popular-places-title">
-          <h3>Most popular</h3>
-          <i class="fa-solid fa-star" id="popular-star"></i>
+          <div>
+            <h4>Show more</h4>
           </div>
-
-
         </div>
 
+        <div class="popular_places">
+          <div class="popular_places_title">
+            <h3>Most popular</h3>
+            <i class="fa-solid fa-star" id="popular_star"></i>
+          </div>
+        </div>
       </div>
     </main>
 
