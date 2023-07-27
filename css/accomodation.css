@@ -89,6 +89,40 @@ h5 {
 
 }
 
+
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .places{
+    display: flex;
+     flex-direction: column;
+      margin-top: 3em;
+      margin-left:0;
+    }
+
+    .accomodations{
+        width: 100%;
+        order:2;
+        margin: 0;
+        background-color: white;
+        
+    }
+
+
+    .place_title{
+        font-size: larger;
+        margin-left: 3%;
+    }
+
+    .accomodation-card{
+        width: 95%;
+    }
+
+  
+    
+
+}
+
+
 @media screen and (max-width: 768px) {
 
     .places{

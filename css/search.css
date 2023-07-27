@@ -77,13 +77,14 @@ button {
 
 .filter:hover{
     cursor: pointer;
+    background-color: cornflowerblue;
+     border: 2px solid cornflowerblue;
 }
 
 .filter i{
     position: absolute; 
     left: -2px;
 }
-
 
 
 
@@ -134,6 +135,15 @@ button {
 
 
 
+@media screen and (max-width: 992px) and (min-width: 768px){
+
+    .search{
+      padding: 2em;
+    }
+
+}
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -154,7 +164,7 @@ button {
 
 
   #search-input{
-    width:55vw;
+    width:60vw;
     margin-top: 1.5em;
     padding:13px;
     font-size: 18px;

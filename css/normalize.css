@@ -22,11 +22,15 @@ main{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 992px) {
 
     body{
         padding: 0;
-        overflow-x: hidden;
+        
     }
 
     main{
