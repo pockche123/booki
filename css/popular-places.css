@@ -1,3 +1,13 @@
+.popular-places {
+  width: 30%;
+  background-color: #f2f2f2;
+  margin-left: 2em;
+  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 10px;
+}
+
 .popular-places-container {
   display: flex;
   flex-wrap: wrap;
@@ -49,15 +59,7 @@
   margin-top: 20px;
 }
 
-.popular-places {
-  width: 30%;
-  background-color: #f2f2f2;
-  margin-left: 2em;
-  padding: 3%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border-radius: 10px;
-}
+
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
     .popular-places {
@@ -76,14 +78,10 @@
 
   .popular-places-container {
      width: 97%; 
-    /* display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-between; */
     
   }
 
  
-
   .popular-place-card{
       width: calc(47% - 10px);
     height: 200px; 
@@ -94,7 +92,6 @@
   }
 
    .popular-place-card img{
-    object-fit: cover;
     width: 96%;
     height: 55%;
     border-radius: 0;

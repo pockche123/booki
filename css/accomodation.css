@@ -1,3 +1,21 @@
+.places{
+    display: flex; 
+    margin-top: 2em;
+
+}
+
+
+.accomodations{
+    background-color: #F2F2F2;;
+    padding: 3%; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    width: 70%;
+    flex: 1;
+
+
+}
 
 
 
@@ -70,23 +88,6 @@ h5 {
 
 
 
-.places{
-    display: flex; 
-    margin-top: 2em;
-
-}
-
-
-.accomodations{
-    background-color: #F2F2F2;;
-    padding: 3%; 
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-radius: 10px;
-    width: 70%;
-
-
-}
 
 
 
@@ -115,10 +116,11 @@ h5 {
 .accomodation-card{
      width: calc(47% - 10px);
     height:200px; 
-    /* display: block; */
     margin-bottom: 4%;
     padding: 1%
     } 
+
+
     .accomodation-card img{
         height: 55%;
     }
@@ -170,7 +172,7 @@ h5 {
     }
 
 
-    .place_title{
+    .place-title{
         font-size: larger;
         margin-left: 3%;
     }

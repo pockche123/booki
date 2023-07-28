@@ -1,0 +1,132 @@
+.activities {
+  margin-top: 3em;
+}
+
+.activities-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.activity-card-1:hover, .activity-card-2:hover, 
+.activity-card-3:hover, .activity-card-4:hover{
+    cursor: pointer;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.activity-card-1 {
+  height: 380px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: calc(23% - 10px);
+}
+
+.activity-card-1 img{
+    width: 100%; 
+    height: 90%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.activity-card-2 img {
+    height: 83%; 
+    width: 100%; 
+    object-fit: cover;
+     border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+.activity-card-3 img{
+    object-fit: cover; 
+    width: 100%; 
+    height: 80%;
+     border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.activity-card-4 img{
+    height: 73%;
+    width: 100%;
+    object-fit: cover;
+     border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+#activity-label{
+    padding: 2%;
+    padding-left: 5%;
+}
+
+.activities-2-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-card-2 {
+  height: 220px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 250px;
+  margin-bottom: 15%;
+}
+
+.activity-card-4 {
+  height: 125px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 250px;
+}
+
+.activities-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-card-3 {
+  height: 171px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 250px;
+  margin-bottom: 15%;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+   .activities{
+    padding: 2%;
+    
+   }
+    .activity-card-1{
+        width: calc(47% - 10px);
+        margin-bottom: 5%; 
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .activity-card-1, .activity-card-2, .activity-card-3, .activity-card-4{
+        width: 97%; 
+        margin: 2%; 
+        height: 170px;
+    }
+
+    .activities-2-4, .activities-3{
+        width: 100%;
+    }
+
+
+
+    .activity-card-1 img, .activity-card-2 img, .activity-card-3 img{
+        height: 72%;
+    }
+
+  
+}
