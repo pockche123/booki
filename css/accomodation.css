@@ -40,7 +40,6 @@ h5 {
  
 }
 .accomodation-card-details{
-    
     padding: 5%;
     padding-top: 0%;
 }
@@ -101,11 +100,41 @@ h5 {
 
     .accomodations{
         width: 100%;
-        order:2;
+        /* order:1; */
         margin: 0;
         background-color: white;
         
     }
+
+  
+    .accomodations-container{
+        width: 95%;
+    }
+ 
+
+.accomodation-card{
+     width: calc(47% - 10px);
+    height:200px; 
+    /* display: block; */
+    margin-bottom: 4%;
+    padding: 1%
+    } 
+    .accomodation-card img{
+        height: 55%;
+    }
+
+ 
+    .accomodation-card-details{
+    
+    padding: 3%;
+    padding-top: 0%;
+    font-size: larger;
+
+}
+
+#accomodation-label{
+    font-size: 15px;
+}
 
 
     .place_title{
@@ -113,9 +142,9 @@ h5 {
         margin-left: 3%;
     }
 
-    .accomodation-card{
+    /* .accomodation-card{
         width: 95%;
-    }
+    } */
 
   
     
@@ -148,6 +177,9 @@ h5 {
 
     .accomodation-card{
         width: 95%;
+        height: 220px;
+              /* width: calc(47% - 10px); */
+
     }
 
   

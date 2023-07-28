@@ -61,7 +61,7 @@
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
     .popular-places {
-    order: 1;
+    /* order: 1; */
     width: 100%;
     margin-left: -10px;
     border-radius: 0;
@@ -76,10 +76,9 @@
 
   .popular-places-container {
      width: 97%; 
-     
-    display: flex; 
+    /* display: flex; 
     flex-wrap: wrap; 
-    justify-content: space-between;
+    justify-content: space-between; */
     
   }
 
@@ -116,20 +115,12 @@
    }
 
 
-  .popular-place-card img {
-    padding: 1.5%;
-  }
-
-  .popular-places img {
-    width: 30%;
-  }
-
   #place-title-label {
-    margin-left: 4%;
+    margin-left: 0%;
   }
 
   #popular-star {
-    margin-right: 2%;
+    margin-right: 3%;
   }
 
 }
@@ -159,7 +150,7 @@
   }
 
   #place-title-label {
-    margin-left: 4%;
+    margin-left: 2%;
   }
 
   #popular-star {
