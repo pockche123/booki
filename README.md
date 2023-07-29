@@ -34,7 +34,7 @@ To use or contribute to this project, follow these steps:
 - Clone the repository to your local machine:
 bash
 - Copy code
-git clone https://github.com/your-username/booki-webpage.git
+git clone https://github.com/pockche123/booki.git
 - Open the index.html file in your web browser to view the webpage.
 
 Explore the code in the HTML and CSS files to understand the structure and styling of the webpage.
