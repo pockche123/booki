@@ -1,3 +1,7 @@
+.places{
+  padding: 2em;
+}
+
 .popular-places {
   width: 30%;
   background-color: #f2f2f2;
@@ -123,11 +127,16 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .places{
+    padding: 0;
+  }
   .popular-places {
     order: 1;
     width: 100%;
     margin-left: -10px;
     border-radius: 0;
+  
   }
 
   .popular-places-container {

@@ -1,4 +1,7 @@
 
+.search{
+  padding: 2em;
+}
 
 .search-form{
     padding-top: 1em;
@@ -138,7 +141,7 @@ button {
 @media screen and (max-width: 992px) and (min-width: 768px){
 
     .search{
-      padding: 2em;
+      padding: 3em;
     }
 
 }
@@ -149,6 +152,7 @@ button {
 
   .search{
     margin: 0 1em;
+    padding: 0;
   }
 
   .search-title{

@@ -1,5 +1,6 @@
 .activities {
   margin-top: 3em;
+  padding: 2em;
 }
 
 .activities-container {
@@ -97,7 +98,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){
    .activities{
-    padding: 2%;
+    padding: 5%;
+    margin: 0 15px; 
     
    }
     .activity-card-1{
@@ -110,6 +112,10 @@
 
 
 @media screen and (max-width: 768px) {
+
+  .activities{
+    padding: 0;
+  }
 
 
     .activity-card-1, .activity-card-2, .activity-card-3, .activity-card-4{
