@@ -16,26 +16,26 @@ The "Booki Webpage" is a static webpage designed to provide users with informati
 ### Features
 The webpage offers the following main features:
 
--Header Navigation: Users can easily access the "Accommodations" and "Activities" sections using the navigation links in the header.
+- Header Navigation: Users can easily access the "Accommodations" and "Activities" sections using the navigation links in the header.
 
--Accommodations Section: The "Accommodations" section showcases a list of accommodations available in Marseille. Each accommodation card provides details such as the name, starting price, and star rating.
+- Accommodations Section: The "Accommodations" section showcases a list of accommodations available in Marseille. Each accommodation card provides details such as the name, starting price, and star rating.
 
--Search and Filters: Users can use the search bar to find specific places and apply filters (e.g., low cost, family-friendly, romantic, pets allowed) to refine their search.
+- Search and Filters: Users can use the search bar to find specific places and apply filters (e.g., low cost, family-friendly, romantic, pets allowed) to refine their search.
 
--Popular Places: The "Most popular" section highlights some of the top-rated accommodations in Marseille.
+- Popular Places: The "Most popular" section highlights some of the top-rated accommodations in Marseille.
 
--Activities Section: The "Activities" section displays various attractions in Marseille, such as the Old Port, Pomègues Fort, Frioul Island, Calanques National Park, Notre-Dame-de-la-Garde, and Longchamp Park.
+- Activities Section: The "Activities" section displays various attractions in Marseille, such as the Old Port, Pomègues Fort, Frioul Island, Calanques National Park, Notre-Dame-de-la-Garde, and Longchamp Park.
 
 -Footer: The footer contains links to additional information, such as site map, general terms and conditions, data and privacy policies, quality assessment, and contact details.
 
 ### Usage
 To use or contribute to this project, follow these steps:
 
-Clone the repository to your local machine:
+- Clone the repository to your local machine:
 bash
-Copy code
+- Copy code
 git clone https://github.com/your-username/booki-webpage.git
-Open the index.html file in your web browser to view the webpage.
+- Open the index.html file in your web browser to view the webpage.
 
 Explore the code in the HTML and CSS files to understand the structure and styling of the webpage.
 
