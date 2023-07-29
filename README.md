@@ -4,10 +4,10 @@
 This repository contains the code for the "Booki Webpage," a simple webpage showcasing accommodations and activities in Marseille. The webpage aims to help users find suitable places for their dream vacation in the city. The webpage is written in HTML and CSS and features some interactive elements and responsive design.
 
 ## Table of Contents
--Introduction
--Features
--Usage
--Contributing
+- Introduction
+- Features
+- Usage
+- Contributing
 
 
 ### Introduction 
