@@ -3,7 +3,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 2em;
+  padding: 40px;
 }
 
 
@@ -20,7 +20,7 @@ header .logo {
   margin-right: 40px;
   text-decoration: none;
   color: black;
-  padding: 2em;
+  padding: 30px;
 }
 
 .header-nav a:hover {
@@ -31,7 +31,8 @@ header .logo {
 
 @media screen and (min-width: 768px) and (max-width: 992px){
   header{
-    padding: 3em;
+    padding: 50px;
+  
   }
 }
 
@@ -40,6 +41,7 @@ header .logo {
   header {
     align-items: center;
     flex-direction: column;
+    padding: 0;
   }
 
 
@@ -52,7 +54,7 @@ header .logo {
   }
   .header-nav a {
    flex: 1; 
-  padding-bottom: 0.5em;
+  padding-bottom: 10px;
    text-align: center;
    margin: 0;
  

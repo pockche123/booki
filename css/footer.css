@@ -1,24 +1,13 @@
 
 footer{
       background-color: #F2F2F2;
-      padding: 2em;
       display: flex;
       flex-wrap: wrap;
-       /* flex-direction: row; */
       justify-content: space-between; 
-      padding:2em;
-      margin-top:2em;
+      padding: 30px;
+      margin-top:30px;
 }
 
-/* .footer-list{
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between;
-}
-#footer-label{
-    text-decoration: none;
-    color: black;
-} */
 
 
 .footer-list {
@@ -45,6 +34,6 @@ footer{
 
 @media  screen and (min-width: 768px) and (max-width: 992px)  {
    .footer-list{
-    margin-left: 2em;
+    margin-left: 30px;
    }
 }
