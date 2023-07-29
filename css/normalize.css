@@ -11,6 +11,9 @@ body{
 
 
 
+html {
+    scroll-behavior: smooth;
+}
 
 main{
     margin-top: 2em;
