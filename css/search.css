@@ -20,7 +20,7 @@
     border-bottom-left-radius: 10px;
 }
 
-#search-input {
+.search-input {
   
     border: none;
     outline: none;
@@ -31,7 +31,7 @@
 
 }
 
-#search-input::placeholder{
+.search-input::placeholder{
       color: black;
 }
 
@@ -105,7 +105,7 @@ button {
     
 }
 
-#search-filter-label{
+.search-filter-span{
     padding: 10px;
     margin-left:35px;
 }
@@ -131,7 +131,7 @@ button {
     margin-top: 2em;
 }
 
-#search-info-label{
+.search-info-span{
     margin-left: 20px;
     width: 80%;
 }
@@ -167,7 +167,7 @@ button {
   }
 
 
-  #search-input{
+  .search-input{
     width:55vw;
     margin-top: 15px;
     padding:13px;
@@ -209,9 +209,7 @@ button {
 
   
 
-#filter-title{
-    margin: 30px;
-}
+
   .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog{
     padding: 16px;
     font-size: 18px;
@@ -224,11 +222,11 @@ button {
   }
 
 
-#search-filter-label{
+.search-filter-span{
     margin-left:50px;
 }
 
-#search-info-label{
+.search-info-span{
     width: 80vw;
 }
 

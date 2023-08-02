@@ -1,189 +1,146 @@
-.places{
-    display: flex; 
-    margin-top: 20px;
-
+.places {
+  display: flex;
+  margin-top: 20px;
 }
 
-
-.accomodations{
-    background-color: #F2F2F2;;
-    padding: 3%; 
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-radius: 10px;
-    width: 70%;
-    flex: 1;
-
-
+.accomodations {
+  background-color: #f2f2f2;
+  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 10px;
+  width: 70%;
+  flex: 1;
 }
 
-
-
-.accomodations-container{
+.accomodations-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
-
-}  
-
-.accomodation-card{
-   width: calc(33.33% - 10px);
-    height: 180px;
-    background-color: white;
-    border-radius: 15px;
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-   transition: 0.3s;
-   margin-bottom: 3%;
+  justify-content: space-between;
 }
 
-.accomodation-card:hover{
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      cursor: pointer;
-      /* background-color:cornflowerblue; */
-      transform: scale(1.05)
+.accomodation-card {
+  width: calc(33.33% - 10px);
+  height: 180px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 3%;
 }
 
-.accomodation-card img{
-    object-fit:cover;
-    height: 60%; 
-    width: 96%;
-    padding: 2%;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    
-   
+.accomodation-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* background-color:cornflowerblue; */
+  transform: scale(1.05);
+}
+
+.accomodation-card img {
+  object-fit: cover;
+  height: 60%;
+  width: 96%;
+  padding: 2%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 h5 {
-    margin: 0; 
- 
+  margin: 0;
 }
-.accomodation-card-details{
-    padding: 5%;
-    padding-top: 0%;
-}
-
-#accomodation-link{
-    text-decoration: none;
-    color: black;
+.accomodation-card-details {
+  padding: 5%;
+  padding-top: 0%;
 }
 
-#accomodation-label{
-    font-size: 13px;
-    margin:0;
+#accomodation-link {
+  text-decoration: none;
+  color: black;
 }
 
-
-
-
-#star-rating{
-    font-size: 10px;
-    color: #0065FC;
+.accomodation-span {
+  font-size: 13px;
+  margin: 0;
 }
 
-#star-no-rating{
-    color: #F2F2F2;
-    font-size: 10px;
+.star-rating {
+  font-size: 10px;
+  color: #0065fc;
 }
 
+.star-no-rating {
+  color: #f2f2f2;
+  font-size: 10px;
+}
 
-
-
-
-
-
-@media screen and (max-width: 992px) and (min-width: 768px){
-  .places{
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .places {
     display: flex;
-     flex-direction: column;
-      margin-top: 30px;
-      margin-left:0;
-    }
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 0;
+  }
 
-    .accomodations{
-        width: 100%;
-        /* order:1; */
-        margin: 0;
-        background-color: white;
-        
-    }
+  .accomodations {
+    width: 100%;
+    /* order:1; */
+    margin: 0;
+    background-color: white;
+  }
 
-  
-    .accomodations-container{
-        width: 95%;
-    }
- 
+  .accomodations-container {
+    width: 95%;
+  }
 
-.accomodation-card{
-     width: calc(47% - 10px);
-    height:200px; 
+  .accomodation-card {
+    width: calc(47% - 10px);
+    height: 200px;
     margin-bottom: 4%;
-    padding: 1%
-    } 
+    padding: 1%;
+  }
 
+  .accomodation-card img {
+    height: 55%;
+  }
 
-    .accomodation-card img{
-        height: 55%;
-    }
-
- 
-    .accomodation-card-details{
-    
+  .accomodation-card-details {
     padding: 3%;
     padding-top: 0%;
     font-size: larger;
+  }
 
-}
-
-#accomodation-label{
+  .accomodation-span {
     font-size: 15px;
+  }
+
+  .place_title {
+    font-size: larger;
+    margin-left: 3%;
+  }
 }
-
-
-    .place_title{
-        font-size: larger;
-        margin-left: 3%;
-    }
-
-    /* .accomodation-card{
-        width: 95%;
-    } */
-
-  
-    
-
-}
-
 
 @media screen and (max-width: 768px) {
-
-    .places{
+  .places {
     display: flex;
-     flex-direction: column;
-      margin-top: 15%;
-      margin-left:0;
-    }
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 0;
+  }
 
-    .accomodations{
-        width: 100%;
-        order:2;
-        margin: 0;
-        background-color: white;
-        
-    }
+  .accomodations {
+    width: 100%;
+    order: 2;
+    margin: 0;
+    background-color: white;
+  }
 
+  .place-title {
+    font-size: larger;
+    margin-left: 3%;
+  }
 
-    .place-title{
-        font-size: larger;
-        margin-left: 3%;
-    }
-
-    .accomodation-card{
-        width: 95%;
-        height: 220px;
-
-    }
-
-  
-
+  .accomodation-card {
+    width: 95%;
+    height: 220px;
+  }
 }

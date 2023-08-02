@@ -35,7 +35,7 @@
   justify-content: space-between;
 }
 
-#popular-place-label {
+.popular-place-span {
   font-size: 13px;
 }
 
@@ -60,7 +60,7 @@
   justify-content: space-between;
 }
 
-#popular-star {
+.popular-star {
   margin-top: 20px;
 }
 
@@ -75,7 +75,7 @@
   }
 
 
-    #place-title-label {
+    .place-title-span {
     margin-left: 0;
   }
 
@@ -112,16 +112,16 @@
   font-size: larger;
 }
 
- #popular-place-label {
+ .popular-place-span {
   font-size: 15px;
    }
 
 
-  #place-title-label {
+  .place-title-span {
     margin-left: 0%;
   }
 
-  #popular-star {
+  .popular-star {
     margin-right: 3%;
   }
 
@@ -156,11 +156,11 @@
     width: 30%;
   }
 
-  #place-title-label {
+  .place-title-span {
     margin-left: 2%;
   }
 
-  #popular-star {
+  .popular-star {
     margin-right: 2%;
   }
 }
