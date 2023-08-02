@@ -9,11 +9,15 @@
   justify-content: space-between;
 }
 
+.activity-card-1, .activity-card-2, .activity-card-3,.activity-card-4{
+  transition: 0.3s;
+}
 
 .activity-card-1:hover, .activity-card-2:hover, 
 .activity-card-3:hover, .activity-card-4:hover{
     cursor: pointer;
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      transform: scale(1.03)
 }
 
 .activity-card-1 {

@@ -1,12 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
 
 
 
-body{
- 
+body {
+
     font-family: Raleway;
     position: relative;
 }
@@ -17,36 +16,26 @@ html {
     scroll-behavior: smooth;
 }
 
-main{
-    /* margin-top: 2em; */
-}
 
 a {
     text-decoration: none;
-    color: inherit; 
+    color: inherit;
 }
 
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
-
-}
 
 @media screen and (max-width: 992px) {
 
-    body{
+    body {
         padding: 0;
-        
+
     }
 
-    main{
-        padding:0;
+    main {
+        padding: 0;
         margin: 0;
-    
+
     }
-
-
-
-
 
 
 }
